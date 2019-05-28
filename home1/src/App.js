@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import InfoList from './components/InfoList'
+import TableWithDishes from './components/InfoList'
 function App() {
   let dishes = [
     {
@@ -27,7 +27,7 @@ function App() {
   ]
   return (
     <div className="App">
-      <InfoList dishes={dishes} />
+      <TableWithDishes dishes={dishes} />
     </div>
   );
 }
