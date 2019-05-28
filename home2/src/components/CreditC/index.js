@@ -16,7 +16,6 @@ class CreditCalc extends Component {
         total.value = cSum +(cSum* 0.25)
         monthlyMoney.value =total.value / monthCount
     }
-
     render() { 
         return (
             <div>
